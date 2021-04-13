@@ -59,3 +59,5 @@ is.nan(x)
 #special attributes called row.names
 #usually created by calling read.table() or read.csv()
 #can be converted to matrix by data.matrix()
+
+x <- data.frame(foo = 1:4, bar =c(T, T, F, F))
