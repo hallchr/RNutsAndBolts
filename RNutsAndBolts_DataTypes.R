@@ -61,3 +61,10 @@ is.nan(x)
 #can be converted to matrix by data.matrix()
 
 x <- data.frame(foo = 1:4, bar =c(T, T, F, F))
+
+##Names attributes
+# r objects can have names. Very usable for writing readable code.
+x <- 1:3
+names(x)
+names(x) <- c("foo", "bar", "norf")
+names(x)
